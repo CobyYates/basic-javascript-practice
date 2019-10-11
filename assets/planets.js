@@ -20,7 +20,7 @@ export const planets = [
         ],
         "created": "2014-12-10T11:35:48.479000Z",
         "edited": "2014-12-20T20:58:18.420000Z",
-        "url": "https://swapi.co/api/planets/2/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/2.jpg"
     },
     {
         "name": "Yavin IV",
@@ -38,7 +38,7 @@ export const planets = [
         ],
         "created": "2014-12-10T11:37:19.144000Z",
         "edited": "2014-12-20T20:58:18.421000Z",
-        "url": "https://swapi.co/api/planets/3/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/3.jpg"
     },
     {
         "name": "Hoth",
@@ -56,7 +56,7 @@ export const planets = [
         ],
         "created": "2014-12-10T11:39:13.934000Z",
         "edited": "2014-12-20T20:58:18.423000Z",
-        "url": "https://swapi.co/api/planets/4/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/4.jpg"
     },
     {
         "name": "Dagobah",
@@ -76,7 +76,7 @@ export const planets = [
         ],
         "created": "2014-12-10T11:42:22.590000Z",
         "edited": "2014-12-20T20:58:18.425000Z",
-        "url": "https://swapi.co/api/planets/5/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/5.jpg"
     },
     {
         "name": "Bespin",
@@ -96,7 +96,7 @@ export const planets = [
         ],
         "created": "2014-12-10T11:43:55.240000Z",
         "edited": "2014-12-20T20:58:18.427000Z",
-        "url": "https://swapi.co/api/planets/6/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/6.jpg"
     },
     {
         "name": "Endor",
@@ -116,7 +116,7 @@ export const planets = [
         ],
         "created": "2014-12-10T11:50:29.349000Z",
         "edited": "2014-12-20T20:58:18.429000Z",
-        "url": "https://swapi.co/api/planets/7/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/7.jpg"
     },
     {
         "name": "Naboo",
@@ -149,7 +149,7 @@ export const planets = [
         ],
         "created": "2014-12-10T11:52:31.066000Z",
         "edited": "2014-12-20T20:58:18.430000Z",
-        "url": "https://swapi.co/api/planets/8/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/8.jpg"
     },
     {
         "name": "Coruscant",
@@ -174,7 +174,7 @@ export const planets = [
         ],
         "created": "2014-12-10T11:54:13.921000Z",
         "edited": "2014-12-20T20:58:18.432000Z",
-        "url": "https://swapi.co/api/planets/9/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/9.jpg"
     },
     {
         "name": "Kamino",
@@ -196,7 +196,7 @@ export const planets = [
         ],
         "created": "2014-12-10T12:45:06.577000Z",
         "edited": "2014-12-20T20:58:18.434000Z",
-        "url": "https://swapi.co/api/planets/10/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/10.jpg"
     },
     {
         "name": "Geonosis",
@@ -216,7 +216,7 @@ export const planets = [
         ],
         "created": "2014-12-10T12:47:22.350000Z",
         "edited": "2014-12-20T20:58:18.437000Z",
-        "url": "https://swapi.co/api/planets/11/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/11.jpg"
     },
     {
         "name": "Utapau",
@@ -236,7 +236,7 @@ export const planets = [
         ],
         "created": "2014-12-10T12:49:01.491000Z",
         "edited": "2014-12-20T20:58:18.439000Z",
-        "url": "https://swapi.co/api/planets/12/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/12.jpg"
     },
     {
         "name": "Mustafar",
@@ -254,7 +254,7 @@ export const planets = [
         ],
         "created": "2014-12-10T12:50:16.526000Z",
         "edited": "2014-12-20T20:58:18.440000Z",
-        "url": "https://swapi.co/api/planets/13/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/13.jpg"
     },
     {
         "name": "Kashyyyk",
@@ -275,7 +275,7 @@ export const planets = [
         ],
         "created": "2014-12-10T13:32:00.124000Z",
         "edited": "2014-12-20T20:58:18.442000Z",
-        "url": "https://swapi.co/api/planets/14/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/14.jpg"
     },
     {
         "name": "Polis Massa",
@@ -293,7 +293,7 @@ export const planets = [
         ],
         "created": "2014-12-10T13:33:46.405000Z",
         "edited": "2014-12-20T20:58:18.444000Z",
-        "url": "https://swapi.co/api/planets/15/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/15.jpg"
     },
     {
         "name": "Mygeeto",
@@ -311,7 +311,7 @@ export const planets = [
         ],
         "created": "2014-12-10T13:43:39.139000Z",
         "edited": "2014-12-20T20:58:18.446000Z",
-        "url": "https://swapi.co/api/planets/16/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/16.jpg"
     },
     {
         "name": "Felucia",
@@ -329,7 +329,7 @@ export const planets = [
         ],
         "created": "2014-12-10T13:44:50.397000Z",
         "edited": "2014-12-20T20:58:18.447000Z",
-        "url": "https://swapi.co/api/planets/17/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/17.jpg"
     },
     {
         "name": "Cato Neimoidia",
@@ -349,7 +349,7 @@ export const planets = [
         ],
         "created": "2014-12-10T13:46:28.704000Z",
         "edited": "2014-12-20T20:58:18.449000Z",
-        "url": "https://swapi.co/api/planets/18/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/18.jpg"
     },
     {
         "name": "Saleucami",
@@ -367,7 +367,7 @@ export const planets = [
         ],
         "created": "2014-12-10T13:47:46.874000Z",
         "edited": "2014-12-20T20:58:18.450000Z",
-        "url": "https://swapi.co/api/planets/19/"
+        "url": "https://starwars-visualguide.com/assets/img/planets/19.jpg"
     },
     {
         "name": "Stewjon",
@@ -385,7 +385,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-10T16:16:26.566000Z",
         "edited": "2014-12-20T20:58:18.452000Z",
-        "url": "https://swapi.co/api/planets/20/"
+        "url": "https://vignette.wikia.nocookie.net/sinsofasolarempire/images/8/8f/Volcanic_Planet.jpg/revision/latest?cb=20080211084635"
     },
     {
         "name": "Eriadu",
@@ -403,7 +403,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-10T16:26:54.384000Z",
         "edited": "2014-12-20T20:58:18.454000Z",
-        "url": "https://swapi.co/api/planets/21/"
+        "url": "https://i.pinimg.com/originals/7e/e2/9b/7ee29ba5211d99b65022b7040d2629f8.jpg"
     },
     {
         "name": "Corellia",
@@ -422,7 +422,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-10T16:49:12.453000Z",
         "edited": "2014-12-20T20:58:18.456000Z",
-        "url": "https://swapi.co/api/planets/22/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/7/7f/Corellia_SOF.png/revision/latest?cb=20170222012701"
     },
     {
         "name": "Rodia",
@@ -440,7 +440,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-10T17:03:28.110000Z",
         "edited": "2014-12-20T20:58:18.458000Z",
-        "url": "https://swapi.co/api/planets/23/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/0/07/RodiaNEGAS.jpg/revision/latest?cb=20061122222115"
     },
     {
         "name": "Nal Hutta",
@@ -458,7 +458,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-10T17:11:29.452000Z",
         "edited": "2014-12-20T20:58:18.460000Z",
-        "url": "https://swapi.co/api/planets/24/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/8/8d/Nal-hutta.png/revision/latest?cb=20170222012913"
     },
     {
         "name": "Dantooine",
@@ -474,7 +474,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-10T17:23:29.896000Z",
         "edited": "2014-12-20T20:58:18.461000Z",
-        "url": "https://swapi.co/api/planets/25/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/9/9f/DantooineRebels.png/revision/latest?cb=20170627023617"
     },
     {
         "name": "Bestine IV",
@@ -492,7 +492,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-12T11:16:55.078000Z",
         "edited": "2014-12-20T20:58:18.463000Z",
-        "url": "https://swapi.co/api/planets/26/"
+        "url": "https://vignette.wikia.nocookie.net/jedipedia/images/0/00/Bestine.jpg/revision/latest?cb=20090207142537&path-prefix=de"
     },
     {
         "name": "Ord Mantell",
@@ -510,34 +510,7 @@ export const planets = [
         ],
         "created": "2014-12-15T12:23:41.661000Z",
         "edited": "2014-12-20T20:58:18.464000Z",
-        "url": "https://swapi.co/api/planets/27/"
-    },
-    {
-        "name": "unknown",
-        "rotation_period": "0",
-        "orbital_period": "0",
-        "diameter": "0",
-        "climate": "unknown",
-        "gravity": "unknown",
-        "terrain": "unknown",
-        "surface_water": "unknown",
-        "population": "unknown",
-        "residents": [
-            "https://swapi.co/api/people/20/",
-            "https://swapi.co/api/people/23/",
-            "https://swapi.co/api/people/29/",
-            "https://swapi.co/api/people/32/",
-            "https://swapi.co/api/people/75/",
-            "https://swapi.co/api/people/84/",
-            "https://swapi.co/api/people/85/",
-            "https://swapi.co/api/people/86/",
-            "https://swapi.co/api/people/87/",
-            "https://swapi.co/api/people/88/"
-        ],
-        "films": [],
-        "created": "2014-12-15T12:25:59.569000Z",
-        "edited": "2014-12-20T20:58:18.466000Z",
-        "url": "https://swapi.co/api/planets/28/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/3/36/Ord_Mantell_EotECR.png/revision/latest?cb=20170222012958"
     },
     {
         "name": "Trandosha",
@@ -555,7 +528,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-15T12:53:47.695000Z",
         "edited": "2014-12-20T20:58:18.468000Z",
-        "url": "https://swapi.co/api/planets/29/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/d/d0/Kashyyyk_FFGRebellion.png/revision/latest?cb=20170529040615"
     },
     {
         "name": "Socorro",
@@ -573,7 +546,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-15T12:56:31.121000Z",
         "edited": "2014-12-20T20:58:18.469000Z",
-        "url": "https://swapi.co/api/planets/30/"
+        "url": "https://vignette.wikia.nocookie.net/star-wars-extended-universe/images/5/5f/Alderaan.png/revision/latest?cb=20180206114117"
     },
     {
         "name": "Mon Cala",
@@ -591,7 +564,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-18T11:07:01.792000Z",
         "edited": "2014-12-20T20:58:18.471000Z",
-        "url": "https://swapi.co/api/planets/31/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/2/24/Mon_Cala_SWCT.png/revision/latest?cb=20181015023926"
     },
     {
         "name": "Chandrila",
@@ -609,7 +582,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-18T11:11:51.872000Z",
         "edited": "2014-12-20T20:58:18.472000Z",
-        "url": "https://swapi.co/api/planets/32/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/9/9b/Chandrila_AoRCR.png/revision/latest?cb=20170222012047"
     },
     {
         "name": "Sullust",
@@ -627,7 +600,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-18T11:25:40.243000Z",
         "edited": "2014-12-20T20:58:18.474000Z",
-        "url": "https://swapi.co/api/planets/33/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/2/2d/SullustAoR.png/revision/latest/scale-to-width-down/500?cb=20170222011923"
     },
     {
         "name": "Toydaria",
@@ -645,7 +618,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-19T17:47:54.403000Z",
         "edited": "2014-12-20T20:58:18.476000Z",
-        "url": "https://swapi.co/api/planets/34/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/d/d6/Toydaria-TCW.png/revision/latest?cb=20130506235119"
     },
     {
         "name": "Malastare",
@@ -663,7 +636,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-19T17:52:13.106000Z",
         "edited": "2014-12-20T20:58:18.478000Z",
-        "url": "https://swapi.co/api/planets/35/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/d/df/MalastareNEGAS.jpg/revision/latest?cb=20061119155609"
     },
     {
         "name": "Dathomir",
@@ -681,7 +654,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-19T18:00:40.142000Z",
         "edited": "2014-12-20T20:58:18.480000Z",
-        "url": "https://swapi.co/api/planets/36/"
+        "url": "https://vignette.wikia.nocookie.net/star-wars-extended-universe/images/d/d7/Dathomir.png/revision/latest?cb=20180312111309"
     },
     {
         "name": "Ryloth",
@@ -700,7 +673,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T09:46:25.740000Z",
         "edited": "2014-12-20T20:58:18.481000Z",
-        "url": "https://swapi.co/api/planets/37/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/b/b7/Ryloth_Rebels.png/revision/latest?cb=20160217215011"
     },
     {
         "name": "Aleen Minor",
@@ -718,7 +691,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T09:52:23.452000Z",
         "edited": "2014-12-20T20:58:18.483000Z",
-        "url": "https://swapi.co/api/planets/38/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/6/66/Aleen_FDNP.png/revision/latest?cb=20180501024706"
     },
     {
         "name": "Vulpter",
@@ -736,7 +709,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T09:56:58.874000Z",
         "edited": "2014-12-20T20:58:18.485000Z",
-        "url": "https://swapi.co/api/planets/39/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/0/0b/Fondor_EotECR.png/revision/latest?cb=20170222012821"
     },
     {
         "name": "Troiken",
@@ -754,7 +727,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:01:37.395000Z",
         "edited": "2014-12-20T20:58:18.487000Z",
-        "url": "https://swapi.co/api/planets/40/"
+        "url": "http://www.theforce.net/timetales/tt1-1/newplympto.jpg"
     },
     {
         "name": "Tund",
@@ -772,7 +745,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:07:29.578000Z",
         "edited": "2014-12-20T20:58:18.489000Z",
-        "url": "https://swapi.co/api/planets/41/"
+        "url": "https://vignette.wikia.nocookie.net/es.starwars/images/f/ff/Korriban-TOR.jpg/revision/latest?cb=20110530174651"
     },
     {
         "name": "Haruun Kal",
@@ -785,12 +758,12 @@ export const planets = [
         "surface_water": "unknown",
         "population": "705300",
         "residents": [
-            "https://swapi.co/api/people/51/"
+            "https://vignette.wikia.nocookie.net/starwars/images/9/92/HaruunKalCSWE.JPG/revision/latest?cb=20120821183509"
         ],
         "films": [],
         "created": "2014-12-20T10:12:28.980000Z",
         "edited": "2014-12-20T20:58:18.491000Z",
-        "url": "https://swapi.co/api/planets/42/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/9/92/HaruunKalCSWE.JPG/revision/latest?cb=20120821183509"
     },
     {
         "name": "Cerea",
@@ -808,7 +781,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:14:48.178000Z",
         "edited": "2014-12-20T20:58:18.493000Z",
-        "url": "https://swapi.co/api/planets/43/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/c/cc/Cerea-FDCR.png/revision/latest?cb=20180501023912"
     },
     {
         "name": "Glee Anselm",
@@ -826,7 +799,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:18:26.110000Z",
         "edited": "2014-12-20T20:58:18.495000Z",
-        "url": "https://swapi.co/api/planets/44/"
+        "url": "https://vignette.wikia.nocookie.net/theclonewiki/images/0/0c/GleeAnselm.jpg/revision/latest?cb=20180627153509"
     },
     {
         "name": "Iridonia",
@@ -844,7 +817,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:26:05.788000Z",
         "edited": "2014-12-20T20:58:18.497000Z",
-        "url": "https://swapi.co/api/planets/45/"
+        "url": "https://vignette.wikia.nocookie.net/pt.starwars/images/c/c5/Iridonia.jpg/revision/latest?cb=20120718172202"
     },
     {
         "name": "Tholoth",
@@ -860,7 +833,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:28:31.117000Z",
         "edited": "2014-12-20T20:58:18.498000Z",
-        "url": "https://swapi.co/api/planets/46/"
+        "url": "https://lh4.googleusercontent.com/nR67QB9DURX0lWxzQ8Iw6N5lMp7_n1la--KCLPHxvYYoMr70dkQOxuOopqP1ZrIn6wDw7KvkqRH36Wk5CS91vm_mz9M86mzBVrWToVgTLNR6g5waQ-JAJfg2QxAMqE31BAfrfO91"
     },
     {
         "name": "Iktotch",
@@ -878,7 +851,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:31:32.413000Z",
         "edited": "2014-12-20T20:58:18.500000Z",
-        "url": "https://swapi.co/api/planets/47/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/f/f1/Iktotch_FDNP.png/revision/latest?cb=20180501025533"
     },
     {
         "name": "Quermia",
@@ -896,7 +869,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:34:08.249000Z",
         "edited": "2014-12-20T20:58:18.502000Z",
-        "url": "https://swapi.co/api/planets/48/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/2/29/Quermia_NEGAS.jpg/revision/latest?cb=20070701083603"
     },
     {
         "name": "Dorin",
@@ -914,7 +887,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:48:36.141000Z",
         "edited": "2014-12-20T20:58:18.504000Z",
-        "url": "https://swapi.co/api/planets/49/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/9/9b/Dorin-FDCR.png/revision/latest?cb=20160304050545"
     },
     {
         "name": "Champala",
@@ -932,7 +905,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T10:52:51.524000Z",
         "edited": "2014-12-20T20:58:18.506000Z",
-        "url": "https://swapi.co/api/planets/50/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/7/7f/Corellia_SOF.png/revision/latest?cb=20170222012701"
     },
     {
         "name": "Mirial",
@@ -951,7 +924,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T16:44:46.318000Z",
         "edited": "2014-12-20T20:58:18.508000Z",
-        "url": "https://swapi.co/api/planets/51/"
+        "url": "https://vignette.wikia.nocookie.net/star-wars-pathfinder/images/e/e0/Mirial.jpg/revision/latest?cb=20170612022003"
     },
     {
         "name": "Serenno",
@@ -969,7 +942,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T16:52:13.357000Z",
         "edited": "2014-12-20T20:58:18.510000Z",
-        "url": "https://swapi.co/api/planets/52/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/b/b2/Serenno-Massacre.png/revision/latest?cb=20130607043719"
     },
     {
         "name": "Concord Dawn",
@@ -987,7 +960,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T16:54:39.909000Z",
         "edited": "2014-12-20T20:58:18.512000Z",
-        "url": "https://swapi.co/api/planets/53/"
+        "url": "http://eleven-thirtyeight.com/wp-content/uploads/2016/02/lolasayu.png"
     },
     {
         "name": "Zolan",
@@ -1005,7 +978,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T16:56:37.250000Z",
         "edited": "2014-12-20T20:58:18.514000Z",
-        "url": "https://swapi.co/api/planets/54/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/6/66/Zolan.jpg/revision/latest?cb=20070701111500"
     },
     {
         "name": "Ojom",
@@ -1023,7 +996,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T17:27:41.286000Z",
         "edited": "2014-12-20T20:58:18.516000Z",
-        "url": "https://swapi.co/api/planets/55/"
+        "url": "https://static.wikia.nocookie.net/dec0d7aa-a5bd-4caf-8203-e2dd6017733c"
     },
     {
         "name": "Skako",
@@ -1041,7 +1014,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T17:50:47.864000Z",
         "edited": "2014-12-20T20:58:18.517000Z",
-        "url": "https://swapi.co/api/planets/56/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/7/72/Teth-TVE.png/revision/latest?cb=20190423045047"
     },
     {
         "name": "Muunilinst",
@@ -1059,7 +1032,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T17:57:47.420000Z",
         "edited": "2014-12-20T20:58:18.519000Z",
-        "url": "https://swapi.co/api/planets/57/"
+        "url": "https://vignette.wikia.nocookie.net/jedipedia/images/8/84/Muunilinst_FoC.jpg/revision/latest?cb=20080420182105&path-prefix=de"
     },
     {
         "name": "Shili",
@@ -1077,7 +1050,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T18:43:14.049000Z",
         "edited": "2014-12-20T20:58:18.521000Z",
-        "url": "https://swapi.co/api/planets/58/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/b/b8/ShiliNEGAS.jpg/revision/latest?cb=20061126102716"
     },
     {
         "name": "Kalee",
@@ -1095,7 +1068,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T19:43:51.278000Z",
         "edited": "2014-12-20T20:58:18.523000Z",
-        "url": "https://swapi.co/api/planets/59/"
+        "url": "https://vignette.wikia.nocookie.net/starwars/images/0/08/KaleePlanet.jpg/revision/latest?cb=20061118121433"
     },
     {
         "name": "Umbara",
@@ -1113,7 +1086,7 @@ export const planets = [
         "films": [],
         "created": "2014-12-20T20:18:36.256000Z",
         "edited": "2014-12-20T20:58:18.525000Z",
-        "url": "https://swapi.co/api/planets/60/"
+        "url": "https://vignette.wikia.nocookie.net/star-wars-animal/images/9/92/Umbara.png/revision/latest?cb=20161119210336"
     },
     {
         "name": "Tatooine",
@@ -1146,7 +1119,7 @@ export const planets = [
         ],
         "created": "2014-12-09T13:50:49.641000Z",
         "edited": "2014-12-21T20:48:04.175778Z",
-        "url": "https://swapi.co/api/planets/1/"
+        "url": "https://upload.wikimedia.org/wikipedia/en/7/7f/Tatooine.jpg"
     },
     {
         "name": "Jakku",
@@ -1164,6 +1137,6 @@ export const planets = [
         ],
         "created": "2015-04-17T06:55:57.556495Z",
         "edited": "2015-04-17T06:55:57.556551Z",
-        "url": "https://swapi.co/api/planets/61/"
+        "url": "https://pbs.twimg.com/media/Chn9RP3UUAI_IUV.jpg"
     }
 ]
