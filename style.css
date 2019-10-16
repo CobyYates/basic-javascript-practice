@@ -9,7 +9,7 @@ h1 {
 body {
     padding-left: 0;
     margin-left: 0;
-    background-image: url('./assets/diagmonds.png');
+    background-image: url('./assets/images/diagmonds.png');
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -105,13 +105,13 @@ header img:hover {
 
 @-webkit-keyframes pulsate{
     0% { 
-        opacity: 0.25;
+        opacity: 0.35;
     }
     50% { 
         opacity: 1.0;
     }
     100% { 
-        opacity: 0.5;
+        opacity: 0.35;
     }
 }
 
@@ -127,9 +127,9 @@ hr {
 }
 
 .blue {
-    -webkit-filter: drop-shadow(5px 5px 20px rgba(10, 32, 226, 0.897));
+    -webkit-filter: drop-shadow(10px 10px 50px rgba(10, 32, 226, 1.5));
     border: 3px solid rgba(29, 29, 247, 0.61);
-    background-color: rgb(36, 36, 253);
+    background-color: rgb(56, 56, 228);
     border-radius: 5px 0 0 5px;
 }
 
@@ -139,9 +139,9 @@ hr {
 }
 
 .red {
-    -webkit-filter: drop-shadow(5px 5px 20px rgba(226, 10, 10, 0.897));
-    border: 3px solid rgba(247, 29, 29, 0.61);
-    background-color: rgb(252, 47, 47);
+    -webkit-filter: drop-shadow(10px 10px 50px rgba(226, 10, 10, 1.5));
+    border: 3px solid rgba(185, 21, 21, 0.61);
+    background-color: rgb(201, 44, 44);
     border-radius: 0 5px 5px 0;
 }
 
@@ -179,6 +179,7 @@ div:hover {
 
 h1, p {
     color: #ccc;
+    margin: 20px 20px 10px;
 }
 
 .photo {

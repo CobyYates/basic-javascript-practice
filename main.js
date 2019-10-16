@@ -179,33 +179,38 @@ vehicles.forEach((vehicle) => {
 // const nuetralCharacters = people.filter(person => person.gender != 'male', 'female')
 // console.log(nuetralCharacters)
 
-call_me(films)
 
+if (document.getElementById("films").selected = true) {
+  call_me(films)
+} 
 
 function call_me(api) {
   (api.forEach((apis) => {
     console.log(api)
   let apiDiv = document.createElement('div')
   let apiPar1 = document.createElement('h1')
-  // let apiPar4 = document.createElement('img')
+  let apiPar4 = document.createElement('img')
   let apiPar2 = document.createElement('p')
   let apiPar3 = document.createElement('p')
 
-  // let charNum = getCharNumber(apis.url)
-  // pic.setAttribute('class', 'photo')
+  let charNum = getCharNumber(apis.url)
+  apiPar4.setAttribute('class', 'photo')
 
 
   apiPar1.textContent = apis.title
-  // apiPar4.textContent = api.pic
+  apiPar4.textContent = apis.pic
   apiPar2.textContent = apis.opening_crawl
   apiPar3.textContent = 'Episode: ' + apis.episode_id
-  // pic.src = `https://starwars-visualguide.com/assets/img/films/${charNum}.jpg`
+  apiPar4.src = `https://starwars-visualguide.com/assets/img/films/${charNum}.jpg`
 
   apiDiv.appendChild(apiPar1)
-  // apiDiv.appendChild(apiPar4)
+  apiDiv.appendChild(apiPar4)
   apiDiv.appendChild(apiPar2)
   apiDiv.appendChild(apiPar3)
 
   mainArea.appendChild(apiDiv)
   })
 )}
+
+/* Notes
+Filter people who are on the dark side and make their cards glow red. Opposite for those on the good good side*/
