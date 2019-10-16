@@ -7,30 +7,45 @@ import { vehicles } from './assets/vehicles.js'
 
 let mainArea = document.querySelector('main')
 
+//People images
+function getCharNumber(charURL) {
+  let end = charURL.lastIndexOf('/')
+  let charID = charURL.substring(end -2, end)
+  if(charID.indexOf('/') !== -1 ) {
+    return charID.slice(1,2)
+  } else {
+      return charID
+  }
+}
+/*
+
+// if(navi === 'Films') {
+// let navi = 'Films'
 films.forEach(function(film) {
-    let filmDiv = document.createElement('div')
-    let filmTitle = document.createElement('h1')
-    let filmCrawl = document.createElement('p')
-    let filmEpisode = document.createElement('p')
-    let pic = document.createElement('img')
+  let filmDiv = document.createElement('div')
+  let filmTitle = document.createElement('h1')
+  let filmCrawl = document.createElement('p')
+  let filmEpisode = document.createElement('p')
+  let pic = document.createElement('img')
 
-    let charNum = getCharNumber(film.url)
-    pic.setAttribute('class', 'photo')
+  let charNum = getCharNumber(film.url)
+  pic.setAttribute('class', 'photo')
 
 
-    filmTitle.textContent = film.title
-    filmCrawl.textContent = film.opening_crawl
-    filmEpisode.textContent = 'Episode: ' + film.episode_id
-    pic.src = `https://starwars-visualguide.com/assets/img/films/${charNum}.jpg`
+  filmTitle.textContent = film.title
+  filmCrawl.textContent = film.opening_crawl
+  filmEpisode.textContent = 'Episode: ' + film.episode_id
+  pic.src = `https://starwars-visualguide.com/assets/img/films/${charNum}.jpg`
 
-    filmDiv.appendChild(filmTitle)
-    filmDiv.appendChild(pic)
-    filmDiv.appendChild(filmCrawl)
-    filmDiv.appendChild(filmEpisode)
+  filmDiv.appendChild(filmTitle)
+  filmDiv.appendChild(pic)
+  filmDiv.appendChild(filmCrawl)
+  filmDiv.appendChild(filmEpisode)
 
-    mainArea.appendChild(filmDiv)
-  });
-
+  mainArea.appendChild(filmDiv)
+});
+  // }
+// else if(navi == 'People'){
 people.forEach((person) => {
   let personDiv = document.createElement('div')
   let name = document.createElement('h1')
@@ -51,18 +66,7 @@ people.forEach((person) => {
 
   mainArea.appendChild(personDiv)
 });
-
-  //People images
-function getCharNumber(charURL) {
-  let end = charURL.lastIndexOf('/')
-  let charID = charURL.substring(end -2, end)
-  if(charID.indexOf('/') !== -1 ) {
-    return charID.slice(1,2)
-  } else {
-      return charID
-  }
-}
-
+// }
 
 planets.forEach((planet) => {
   let planetDiv = document.createElement('div')
@@ -79,7 +83,6 @@ planets.forEach((planet) => {
   diameter.textContent = 'Diameter: ' + planet.diameter
   terrain.textContent = 'Terrain: ' + planet.terrain
   population.textContent = 'Population: ' + planet.population
-  // pic.src = `https://starwars-visualguide.com/assets/img/planets/${charNum}.jpg`
   pic.src = planet.url
 
   planetDiv.appendChild(name)
@@ -169,27 +172,40 @@ vehicles.forEach((vehicle) => {
 
   mainArea.appendChild(vehicleDiv)
 });
+*/
 
-// api(films, title, opening_crawl)
+// const maleCharacters = people.filter(person => person.gender === 'male')
+// const femaleCharacters = people.filter(person => person.gender === 'female')
+// const nuetralCharacters = people.filter(person => person.gender != 'male', 'female')
+// console.log(nuetralCharacters)
 
-// api((apiName, prop1, prop2, prop3, prop4, prop5) => {
-//   apiName.forEach(() => {
-//     let prop1Div = document.createElement('div')
-//     let prop2 = document.createElement('h1')
-//     let prop3 = document.createElement('p')
-//     let prop4 = document.createElement('p')
-//     let prop5 = document.createElement('p')
-  
-//     prop2.textContent = prop1.prop2
-//     prop3.textContent = 'prop3: ' + prop1.prop3
-//     prop4.textContent = 'prop4: ' + prop1.prop4
-//     prop5.textContent = 'prop5: ' + prop1.prop5
-  
-//     prop1Div.appendChild(prop2)
-//     prop1Div.appendChild(prop3)
-//     prop1Div.appendChild(prop4)
-//     prop1Div.appendChild(prop5)
-  
-//     mainArea.appendChild(prop1Div)
-//   });
-// })
+call_me(films)
+
+
+function call_me(api) {
+  (api.forEach((apis) => {
+    console.log(api)
+  let apiDiv = document.createElement('div')
+  let apiPar1 = document.createElement('h1')
+  // let apiPar4 = document.createElement('img')
+  let apiPar2 = document.createElement('p')
+  let apiPar3 = document.createElement('p')
+
+  // let charNum = getCharNumber(apis.url)
+  // pic.setAttribute('class', 'photo')
+
+
+  apiPar1.textContent = apis.title
+  // apiPar4.textContent = api.pic
+  apiPar2.textContent = apis.opening_crawl
+  apiPar3.textContent = 'Episode: ' + apis.episode_id
+  // pic.src = `https://starwars-visualguide.com/assets/img/films/${charNum}.jpg`
+
+  apiDiv.appendChild(apiPar1)
+  // apiDiv.appendChild(apiPar4)
+  apiDiv.appendChild(apiPar2)
+  apiDiv.appendChild(apiPar3)
+
+  mainArea.appendChild(apiDiv)
+  })
+)}
