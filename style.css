@@ -30,10 +30,24 @@ body {
     }
 }
 
-.selected {
-    background-color: rgba(163, 161, 13, 0.829);
+.drop {
+    display: flex;
+    justify-content: center;
+}
+
+.drop select {
+    font-size: 16px;
+    width: 400px;
+    height: 50px;
+    background-color: var(--bg-color);
+    background-image: var(--bg-image);
     color: white;
-    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+select:hover {
+    background-color: var(--blue);
 }
 
 .decal {
@@ -166,7 +180,7 @@ main {
     margin-bottom: 6rem;
 }
 
-div {
+.card {
     background-color: var(--bg-color);
     background-image: var(--bg-image);
     border-radius: 10px;
@@ -176,7 +190,7 @@ div {
     text-align: center;
 }
 
-div:hover {
+.card:hover {
     transform: scale(1.02);
     box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.644);
     cursor: pointer;

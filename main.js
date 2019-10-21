@@ -21,6 +21,9 @@ function getCharNumber(charURL) {
 var select = document.querySelector('select');
 select.addEventListener('change', setAPI);
 
+// var select = document.querySelector('list')
+// select.addEventListener('click', setAPI)
+
 function setAPI() {
   var choice = select.value
   mainArea.textContent = ""
@@ -35,6 +38,7 @@ function setAPI() {
 
     let charNum = getCharNumber(film.url)
     pic.setAttribute('class', 'photo')
+    filmDiv.setAttribute('class', 'card')
 
 
     filmTitle.textContent = film.title
@@ -59,6 +63,7 @@ function setAPI() {
   
     let charNum = getCharNumber(person.url)
     pic.setAttribute('class', 'photo')
+    personDiv.setAttribute('class', 'card')
   
     name.textContent = person.name
     gender.textContent = 'Gender: ' + person.gender
@@ -83,6 +88,7 @@ function setAPI() {
   
     let charNum = getCharNumber(planet.url)
     pic.setAttribute('class', 'photo')
+    planetDiv.setAttribute('class', 'card')
   
     name.textContent = planet.name
     diameter.textContent = 'Diameter: ' + planet.diameter
@@ -110,6 +116,7 @@ function setAPI() {
   
     let charNum = getCharNumber(specy.url)
     pic.setAttribute('class', 'photo')
+    specyDiv.setAttribute('class', 'card')
   
     name.textContent = specy.name
     classification.textContent = 'Classification: ' + specy.classification
@@ -136,6 +143,7 @@ function setAPI() {
   
     let charNum = getCharNumber(starship.url)
     pic.setAttribute('class', 'photo')
+    starshipDiv.setAttribute('class', 'card')
   
     name.textContent = starship.name
     model.textContent = 'Model: ' + starship.model
@@ -164,6 +172,7 @@ function setAPI() {
   
     let charNum = getCharNumber(vehicle.url)
     pic.setAttribute('class', 'photo')
+    vehicleDiv.setAttribute('class', 'card')
   
     name.textContent = vehicle.name
     model.textContent = 'Model: ' + vehicle.model

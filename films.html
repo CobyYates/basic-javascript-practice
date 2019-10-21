@@ -11,22 +11,13 @@
 <body>
     <nav id="navbar">
         <ul>
-            <a id="films" href="films.html" class="selected" selected="selected"><li>Films</li></a>
-            <a id="people" href="people.html"><li>People</li></a>
-            <a id="planets" href="planets.html"><li>Planets</li></a>
-            <a id="species" href="species.html"><li>Species</li></a>
-            <a id="starships" href="starships.html"><li>Starships</li></a>
-            <a id="vehicles" href="vehicles.html"><li>Vehicles</li></a>
+            <a id="films" href="#" class="selected"  value="Films"><li>Films</li></a>
+            <a id="people" href="#" value="People"><li>People</li></a>
+            <a id="planets" href="#" value="Planets"><li>Planets</li></a>
+            <a id="species" href="#" value="Species"><li>Species</li></a>
+            <a id="starships" href="#" value="Starships"><li>Starships</li></a>
+            <a id="vehicles" href="#" value="Vehicles"><li>Vehicles</li></a>
         </ul>
-        <select id="weather">
-            <option value="">--Make a choice--</option>
-            <option value="Films">Films</option>
-            <option value="People">People</option>
-            <option value="Planets">Planets</option>
-            <option value="Species">Species</option>
-            <option value="Starships">Starships</option>
-            <option value="Vehicles">Vehicles</option>
-        </select>
     </nav>
 
     <header><img class="pulsate" src="./assets/images/Star_Wars_Logo.png" alt="Star Wars Logo"></header>
@@ -41,6 +32,20 @@
         <img class="decal" src="http://www.iconarchive.com/download/i61929/jonathan-rey/star-wars-vehicles/X-Wing-01.ico" alt="">
         <img class="decal" src="http://www.iconarchive.com/download/i61924/jonathan-rey/star-wars-vehicles/Tie-Fighter-03.ico" alt="">
     </section>
+    
+    <!-- css-tricks.com/styling-a-select-like-its-2019/ -->
+    <div class="drop">
+    <select>
+        <option value=""> Make a choice </option>
+        <option value="Films">Films</option>
+        <option value="People">People</option>
+        <option value="Planets">Planets</option>
+        <option value="Species">Species</option>
+        <option value="Starships">Starships</option>
+        <option value="Vehicles">Vehicles</option>
+    </select>
+    </div>
+    
     
     <main class="test">
     </main>
