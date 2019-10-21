@@ -17,162 +17,172 @@ function getCharNumber(charURL) {
       return charID
   }
 }
-/*
 
-// if(navi === 'Films') {
-// let navi = 'Films'
-films.forEach(function(film) {
-  let filmDiv = document.createElement('div')
-  let filmTitle = document.createElement('h1')
-  let filmCrawl = document.createElement('p')
-  let filmEpisode = document.createElement('p')
-  let pic = document.createElement('img')
+var select = document.querySelector('select');
+select.addEventListener('change', setAPI);
 
-  let charNum = getCharNumber(film.url)
-  pic.setAttribute('class', 'photo')
+function setAPI() {
+  var choice = select.value
+  mainArea.textContent = ""
+
+  if (choice === 'Films')
+  films.forEach((film) => {
+    let filmDiv = document.createElement('div')
+    let filmTitle = document.createElement('h1')
+    let filmCrawl = document.createElement('p')
+    let filmEpisode = document.createElement('p')
+    let pic = document.createElement('img')
+
+    let charNum = getCharNumber(film.url)
+    pic.setAttribute('class', 'photo')
 
 
-  filmTitle.textContent = film.title
-  filmCrawl.textContent = film.opening_crawl
-  filmEpisode.textContent = 'Episode: ' + film.episode_id
-  pic.src = `https://starwars-visualguide.com/assets/img/films/${charNum}.jpg`
+    filmTitle.textContent = film.title
+    filmCrawl.textContent = film.opening_crawl
+    filmEpisode.textContent = 'Episode: ' + film.episode_id
+    pic.src = `https://starwars-visualguide.com/assets/img/films/${charNum}.jpg`
 
-  filmDiv.appendChild(filmTitle)
-  filmDiv.appendChild(pic)
-  filmDiv.appendChild(filmCrawl)
-  filmDiv.appendChild(filmEpisode)
+    filmDiv.appendChild(filmTitle)
+    filmDiv.appendChild(pic)
+    filmDiv.appendChild(filmCrawl)
+    filmDiv.appendChild(filmEpisode)
 
-  mainArea.appendChild(filmDiv)
-});
-  // }
-// else if(navi == 'People'){
-people.forEach((person) => {
-  let personDiv = document.createElement('div')
-  let name = document.createElement('h1')
-  let gender = document.createElement('p')
-  let pic = document.createElement('img')
+    mainArea.appendChild(filmDiv)
+  });
 
-  let charNum = getCharNumber(person.url)
-  pic.setAttribute('class', 'photo')
-
-  name.textContent = person.name
-  gender.textContent = 'Gender: ' + person.gender
-  pic.src = `https://starwars-visualguide.com/assets/img/characters/${charNum}.jpg`
-
-  personDiv.appendChild(name)
-  personDiv.appendChild(pic)
-  personDiv.appendChild(gender)
+  else if (choice === 'People') {
+  people.forEach((person) => {
+    let personDiv = document.createElement('div')
+    let name = document.createElement('h1')
+    let gender = document.createElement('p')
+    let pic = document.createElement('img')
   
-
-  mainArea.appendChild(personDiv)
-});
-// }
-
-planets.forEach((planet) => {
-  let planetDiv = document.createElement('div')
-  let name = document.createElement('h1')
-  let diameter = document.createElement('p')
-  let terrain = document.createElement('p')
-  let population = document.createElement('p')
-  let pic = document.createElement('img')
-
-  let charNum = getCharNumber(planet.url)
-  pic.setAttribute('class', 'photo')
-
-  name.textContent = planet.name
-  diameter.textContent = 'Diameter: ' + planet.diameter
-  terrain.textContent = 'Terrain: ' + planet.terrain
-  population.textContent = 'Population: ' + planet.population
-  pic.src = planet.url
-
-  planetDiv.appendChild(name)
-  planetDiv.appendChild(pic)
-  planetDiv.appendChild(diameter)
-  planetDiv.appendChild(terrain)
-  planetDiv.appendChild(population)
+    let charNum = getCharNumber(person.url)
+    pic.setAttribute('class', 'photo')
   
-
-  mainArea.appendChild(planetDiv)
-});
-
-species.forEach((specy) => {
-  let specyDiv = document.createElement('div')
-  let name = document.createElement('h1')
-  let classification = document.createElement('p')
-  let language = document.createElement('p')
-  let pic = document.createElement('img')
-
-  let charNum = getCharNumber(specy.url)
-  pic.setAttribute('class', 'photo')
-
-  name.textContent = specy.name
-  classification.textContent = 'Classification: ' + specy.classification
-  language.textContent = 'Language: ' + specy.language
-  pic.src = `https://starwars-visualguide.com/assets/img/species/${charNum}.jpg`
-
-  specyDiv.appendChild(name)
-  specyDiv.appendChild(pic)
-  specyDiv.appendChild(classification)
-  specyDiv.appendChild(language)
+    name.textContent = person.name
+    gender.textContent = 'Gender: ' + person.gender
+    pic.src = `https://starwars-visualguide.com/assets/img/characters/${charNum}.jpg`
   
-
-  mainArea.appendChild(specyDiv)
-});
-
-starships.forEach((starship) => {
-  let starshipDiv = document.createElement('div')
-  let name = document.createElement('h1')
-  let model = document.createElement('p')
-  let cost = document.createElement('p')
-  let hyperdrive = document.createElement('p')
-  let pic = document.createElement('img')
-
-  let charNum = getCharNumber(starship.url)
-  pic.setAttribute('class', 'photo')
-
-  name.textContent = starship.name
-  model.textContent = 'Model: ' + starship.model
-  cost.textContent = 'Cost: ' + starship.cost_in_credits + ' credits'
-  hyperdrive.textContent = 'Hyperdrive Rating: ' + starship.hyperdrive_rating
-  pic.src = `https://starwars-visualguide.com/assets/img/starships/${charNum}.jpg`
-
-  starshipDiv.appendChild(name)
-  starshipDiv.appendChild(pic)
-  starshipDiv.appendChild(model)
-  starshipDiv.appendChild(cost)
-  starshipDiv.appendChild(hyperdrive)
+    personDiv.appendChild(name)
+    personDiv.appendChild(pic)
+    personDiv.appendChild(gender)
+    
   
-
-  mainArea.appendChild(starshipDiv)
-});
-
-vehicles.forEach((vehicle) => {
-  let vehicleDiv = document.createElement('div')
-  let name = document.createElement('h1')
-  let model = document.createElement('p')
-  let cost = document.createElement('p')
-  let speedMax = document.createElement('p')
-  let pic = document.createElement('img')
-
-  let charNum = getCharNumber(vehicle.url)
-  pic.setAttribute('class', 'photo')
-
-  name.textContent = vehicle.name
-  model.textContent = 'Model: ' + vehicle.model
-  cost.textContent = 'Cost: ' + vehicle.cost_in_credits + ' credits'
-  speedMax.textContent = 'Max Speed: ' + vehicle.max_atmosphering_speed
-  pic.src = `https://starwars-visualguide.com/assets/img/vehicles/${charNum}.jpg`
-
-  vehicleDiv.appendChild(name)
-  vehicleDiv.appendChild(pic)
-  vehicleDiv.appendChild(model)
-  vehicleDiv.appendChild(cost)
-  vehicleDiv.appendChild(speedMax)
+    mainArea.appendChild(personDiv)
+  });
+  }
+  else if (choice === 'Planets') {
+  planets.forEach((planet) => {
+    let planetDiv = document.createElement('div')
+    let name = document.createElement('h1')
+    let diameter = document.createElement('p')
+    let terrain = document.createElement('p')
+    let population = document.createElement('p')
+    let pic = document.createElement('img')
   
+    let charNum = getCharNumber(planet.url)
+    pic.setAttribute('class', 'photo')
+  
+    name.textContent = planet.name
+    diameter.textContent = 'Diameter: ' + planet.diameter
+    terrain.textContent = 'Terrain: ' + planet.terrain
+    population.textContent = 'Population: ' + planet.population
+    pic.src = planet.url
+  
+    planetDiv.appendChild(name)
+    planetDiv.appendChild(pic)
+    planetDiv.appendChild(diameter)
+    planetDiv.appendChild(terrain)
+    planetDiv.appendChild(population)
+    
+  
+    mainArea.appendChild(planetDiv)
+  });
+  }
+  else if (choice === 'Species') {
+  species.forEach((specy) => {
+    let specyDiv = document.createElement('div')
+    let name = document.createElement('h1')
+    let classification = document.createElement('p')
+    let language = document.createElement('p')
+    let pic = document.createElement('img')
+  
+    let charNum = getCharNumber(specy.url)
+    pic.setAttribute('class', 'photo')
+  
+    name.textContent = specy.name
+    classification.textContent = 'Classification: ' + specy.classification
+    language.textContent = 'Language: ' + specy.language
+    pic.src = `https://starwars-visualguide.com/assets/img/species/${charNum}.jpg`
+  
+    specyDiv.appendChild(name)
+    specyDiv.appendChild(pic)
+    specyDiv.appendChild(classification)
+    specyDiv.appendChild(language)
+    
+  
+    mainArea.appendChild(specyDiv)
+  });
+  }
+  else if (choice === 'Starships') {
+  starships.forEach((starship) => {
+    let starshipDiv = document.createElement('div')
+    let name = document.createElement('h1')
+    let model = document.createElement('p')
+    let cost = document.createElement('p')
+    let hyperdrive = document.createElement('p')
+    let pic = document.createElement('img')
+  
+    let charNum = getCharNumber(starship.url)
+    pic.setAttribute('class', 'photo')
+  
+    name.textContent = starship.name
+    model.textContent = 'Model: ' + starship.model
+    cost.textContent = 'Cost: ' + starship.cost_in_credits + ' credits'
+    hyperdrive.textContent = 'Hyperdrive Rating: ' + starship.hyperdrive_rating
+    pic.src = `https://starwars-visualguide.com/assets/img/starships/${charNum}.jpg`
+  
+    starshipDiv.appendChild(name)
+    starshipDiv.appendChild(pic)
+    starshipDiv.appendChild(model)
+    starshipDiv.appendChild(cost)
+    starshipDiv.appendChild(hyperdrive)
+    
+  
+    mainArea.appendChild(starshipDiv)
+  });
+  }
+  else if (choice === 'Vehicles') {
+  vehicles.forEach((vehicle) => {
+    let vehicleDiv = document.createElement('div')
+    let name = document.createElement('h1')
+    let model = document.createElement('p')
+    let cost = document.createElement('p')
+    let speedMax = document.createElement('p')
+    let pic = document.createElement('img')
+  
+    let charNum = getCharNumber(vehicle.url)
+    pic.setAttribute('class', 'photo')
+  
+    name.textContent = vehicle.name
+    model.textContent = 'Model: ' + vehicle.model
+    cost.textContent = 'Cost: ' + vehicle.cost_in_credits + ' credits'
+    speedMax.textContent = 'Max Speed: ' + vehicle.max_atmosphering_speed
+    pic.src = `https://starwars-visualguide.com/assets/img/vehicles/${charNum}.jpg`
+  
+    vehicleDiv.appendChild(name)
+    vehicleDiv.appendChild(pic)
+    vehicleDiv.appendChild(model)
+    vehicleDiv.appendChild(cost)
+    vehicleDiv.appendChild(speedMax)
+    
+  
+    mainArea.appendChild(vehicleDiv)
+  });
+  }
+}
 
-  mainArea.appendChild(vehicleDiv)
-});
-*/
 
 // const maleCharacters = people.filter(person => person.gender === 'male')
 // const femaleCharacters = people.filter(person => person.gender === 'female')
@@ -180,7 +190,7 @@ vehicles.forEach((vehicle) => {
 // console.log(nuetralCharacters)
 
 
-if (document.getElementById("films").selected = true) {
+/*if (document.getElementById("films").selected = true) {
   call_me(films)
 } 
 
@@ -210,7 +220,7 @@ function call_me(api) {
 
   mainArea.appendChild(apiDiv)
   })
-)}
+)}*/
 
 /* Notes
-Filter people who are on the dark side and make their cards glow red. Opposite for those on the good good side*/
+Filter people who are on the dark side and make their cards glow red. Opposite for those on the good side*/

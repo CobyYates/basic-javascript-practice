@@ -17,7 +17,7 @@ body {
 .decals {
     position: sticky;
     display: inline-block;
-    top: 50vh;
+    top: 80vh;
     z-index: 10;
     display: flex;
     justify-content: space-between;
@@ -28,6 +28,12 @@ body {
     .decals {
         display: none;
     }
+}
+
+.selected {
+    background-color: rgba(163, 161, 13, 0.829);
+    color: white;
+    font-weight: 700;
 }
 
 .decal {

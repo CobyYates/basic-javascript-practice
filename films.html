@@ -6,18 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <title>Star Wars API</title>
+    <title>Star Wars | Films</title>
 </head>
 <body>
     <nav id="navbar">
         <ul>
-            <a id="films" href="films.html"><li>Films</li></a>
+            <a id="films" href="films.html" class="selected" selected="selected"><li>Films</li></a>
             <a id="people" href="people.html"><li>People</li></a>
             <a id="planets" href="planets.html"><li>Planets</li></a>
             <a id="species" href="species.html"><li>Species</li></a>
             <a id="starships" href="starships.html"><li>Starships</li></a>
             <a id="vehicles" href="vehicles.html"><li>Vehicles</li></a>
         </ul>
+        <select id="weather">
+            <option value="">--Make a choice--</option>
+            <option value="Films">Films</option>
+            <option value="People">People</option>
+            <option value="Planets">Planets</option>
+            <option value="Species">Species</option>
+            <option value="Starships">Starships</option>
+            <option value="Vehicles">Vehicles</option>
+        </select>
     </nav>
 
     <header><img class="pulsate" src="./assets/images/Star_Wars_Logo.png" alt="Star Wars Logo"></header>
@@ -33,8 +42,9 @@
         <img class="decal" src="http://www.iconarchive.com/download/i61924/jonathan-rey/star-wars-vehicles/Tie-Fighter-03.ico" alt="">
     </section>
     
-    <main>
+    <main class="test">
     </main>
     <script type="module" src="main.js"></script>
+
 </body>
 </html>
